@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>l1.png</file>
+        <file>l2.jpg</file>
+        <file>n1.jpg</file>
+        <file>n2.png</file>
+        <file>starnight.png</file>
+        <file>sunnygirl.jpg</file>
+        <file>test.ico.png</file>
+        <file>weather_icon/chanceflurries.png</file>
+        <file>weather_icon/chancerain.png</file>
+        <file>weather_icon/chancesleet.png</file>
+        <file>weather_icon/chancesnow.png</file>
+        <file>weather_icon/chancetstorms.png</file>
+        <file>weather_icon/clear.png</file>
+        <file>weather_icon/cloudy.png</file>
+        <file>weather_icon/flurries.png</file>
+        <file>weather_icon/fog.png</file>
+        <file>weather_icon/hazy.png</file>
+        <file>weather_icon/mostlycloudy.png</file>
+        <file>weather_icon/mostlysunny.png</file>
+        <file>weather_icon/partlycloudy.png</file>
+        <file>weather_icon/partlysunny.png</file>
+        <file>weather_icon/rain.png</file>
+        <file>weather_icon/sleet.png</file>
+        <file>weather_icon/snow.png</file>
+        <file>weather_icon/sunny.png</file>
+        <file>weather_icon/tstorms.png</file>
+        <file>weather_icon/unknown.png</file>
+    </qresource>
+</RCC>
