@@ -432,9 +432,15 @@ void HomePage::createInfoPanel() {
 
     QPushButton *btnView = new QPushButton("使用文档");
     btnView->setStyleSheet(buttonStyle);
+    connect(btnView, &QPushButton::clicked, [this]() {
+        QDesktopServices::openUrl(QUrl("https://github.com/xiaoce-2025/QtCalendar/blob/main/%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.md"));
+    });
 
     QPushButton *btnSchedule = new QPushButton("关于我们");
     btnSchedule->setStyleSheet(buttonStyle);
+    connect(btnSchedule, &QPushButton::clicked, [this]() {
+        QDesktopServices::openUrl(QUrl("https://github.com/xiaoce-2025/QtCalendar/blob/main/README.md"));
+    });
 
     QPushButton *btnExit = new QPushButton("退出");
     btnExit->setStyleSheet(buttonStyle);
